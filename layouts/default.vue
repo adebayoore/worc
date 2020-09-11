@@ -4,6 +4,8 @@
       <v-btn text v-text="title" />
 
       <v-spacer></v-spacer>
+      <span>Welcome to the Cayman Island's WORC Portal</span>
+      <v-spacer></v-spacer>
 
       <v-btn icon @click="dialog = true">
         <v-icon>mdi-account-question</v-icon>
@@ -26,11 +28,30 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-dialog v-model="dialog">
+
+    <v-dialog
+      v-model="dialog"
+      max-width="290"
+    >
       <v-card>
-        <v-card-title>
-          his
-        </v-card-title>
+        <v-card-title class="headline">Need Assistance??</v-card-title>
+
+        <v-card-text>
+          Email our support team at testing@yahoo.com
+
+          orem ipsum dolor sit amet, semper quis, sapien id natoque elit. Nostra urna at, magna at neque sed sed ante imperdiet, dolor mauris cursus velit, velit non, sem nec. Volutpat sem ridiculus placerat leo, augue in, duis erat proin condimentum in a eget, sed fermentum sed vestibulum varius ac, vestibulum volutpat orc
+        </v-card-text>
+
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn
+            color="green darken-1"
+            text
+            @click="dialog = false"
+          >
+            Close
+          </v-btn>
+        </v-card-actions>
       </v-card>
     </v-dialog>
     <v-footer :absolute="!fixed" app>

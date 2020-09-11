@@ -12,25 +12,23 @@
       <div class="text-center">
         <img height="200px" src="@/assets/kygov.jpg"/>
         <div class="text-center">
-        <span>Welcome to the Cayman Island's WORC Portal</span>
+        <span></span>
         </div>
-        <!-- <vuetify-logo /> -->
       </div>
       <v-card>
-        <!-- <v-card-title class="headline">
-          
-        </v-card-title> -->
+      
         <v-card-text>
          <img height="200px" src="@/assets/process.png"/>
         </v-card-text>
         <v-card-actions>
           <v-spacer />
           <v-btn
-            color="primary"
+            color="success"
             nuxt
-            to="/inspire"
+            text
+            to="/login"
           >
-            Continue
+            Sign In
           </v-btn>
         </v-card-actions>
       </v-card>
