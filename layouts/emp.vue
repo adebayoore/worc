@@ -85,6 +85,16 @@ export default {
           to: '/profile'
         },
         {
+          icon: 'mdi-track',
+          title: 'Application Status',
+          to: '/status'
+        },
+        {
+          icon: 'mdi-folder',
+          title: 'Document Uploads',
+          to: '/doc'
+        },
+        {
           icon: 'mdi-briefcase-search',
           title: 'Job Search',
           to: '/search'
@@ -92,9 +102,18 @@ export default {
       ],
       item2: [
         {
+          icon: 'mdi-playlist-edit',
+          title: 'Manage Postings',
+        },
+        {
           icon: 'mdi-script',
           title: 'Job Post',
           to: '/jobpost'
+        },
+        {
+          icon: 'mdi-progress-clock',
+          title: 'Applicant Tracking',
+          to: '/track'
         },
       ],
       title: 'Welcome Ade'

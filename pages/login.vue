@@ -37,7 +37,7 @@
               Back
             </v-btn>
             <v-btn type="submit" text color="info">Login</v-btn>
-            <v-btn text color="info" to="home">go</v-btn>
+            <v-btn icon color="info" to="home"><v-icon>mdi-plus</v-icon></v-btn>
           </v-card-action>
         </v-form>
       </v-card-text>
