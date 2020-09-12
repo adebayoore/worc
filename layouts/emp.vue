@@ -7,6 +7,7 @@
       fixed
       app
     >
+    <span>Employee Side</span>
       <v-list>
         <v-list-item
           v-for="(item, i) in items"
@@ -26,7 +27,7 @@
       
       <v-divider></v-divider>
         <span></span>
-        client side
+          Client Side
        <v-list>
         <v-list-item
           v-for="(item, i) in item2"
@@ -85,7 +86,7 @@ export default {
           to: '/profile'
         },
         {
-          icon: 'mdi-track',
+          icon: 'mdi-progress-alert',
           title: 'Application Status',
           to: '/status'
         },

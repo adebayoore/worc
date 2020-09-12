@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
     <v-app-bar :clipped-left="clipped" fixed app>
-      <v-btn text v-text="title" to="/register"/>
+      <v-btn text v-text="title" to="/"/>
 
       <v-spacer></v-spacer>
       <span>Welcome to the Cayman Island's WORC Portal</span>
@@ -65,7 +65,7 @@ export default {
   data() {
     return {
       dialog: false,
-      title: "Sign Up"
+      title: "Back"
     };
   }
 };

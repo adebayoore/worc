@@ -88,6 +88,7 @@ const steps = {
   confirm: 'CONFIRM'
 }
 export default {
+  layout: 'register',
   data: () => ({
     showPassword: false,
     snackbar: false,
