@@ -105,7 +105,6 @@
               <v-flex xs12 text-xs-right>
                 <v-btn
                   v-on:click="createProfile"
-                  :disabled="!valid"
                   text
                   class="mx-0 font-weight-light"
                   color="success"
@@ -159,15 +158,15 @@ export default {
   layout: 'emp',
   data() {
     return {
-      firstname: '',
-      lastname: '',
+      firstname: 'Adebayo',
+      lastname: 'Oremule',
       bio: '',
-      school: '',
-      foi: '',
-      education: '',
+      school: 'John Gray High School',
+      foi: 'Accounting',
+      education: 'High School',
       date: '',
       date2: '',
-      town: '',
+      town: 'Cayman Brac',
       nameRules: [v => !!v || 'Required'],
       bioRules: [
         v => !!v || 'Required',
