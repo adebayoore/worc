@@ -16,7 +16,7 @@
         <nuxt />
       </v-container>
     </v-main>
-    <v-navigation-drawer v-model="rightDrawer" :right="right" temporary fixed>
+    <v-navigation-drawer v-model="rightDrawer" :right="right" temporary>
       <v-list>
         <v-list-item @click.native="right = !right">
           <v-list-item-action>
@@ -54,7 +54,7 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
-    <v-footer :absolute="!fixed" app>
+    <v-footer absolute app>
       <span>&copy;Orem</span>
     </v-footer>
   </v-app>

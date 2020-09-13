@@ -9,7 +9,7 @@
       </div>
       <v-card>
         <v-card-text>
-          <img height="200px" src="@/assets/worcc.png" />
+          <img height="200px" src="@/assets/worcc.png"/>
         </v-card-text>
         <v-card-actions>
           <v-spacer />
